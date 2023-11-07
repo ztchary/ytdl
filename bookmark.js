@@ -1,0 +1,1 @@
+javascript:(()=>{let a=document.createElement("a");let vid=window.location.href.split("=").pop()+"."+prompt("Enter file format (mp3, mp4)");a.href="https://ytdl.dogwater53.us/download/"+vid;a.download=vid;a.click();delete a;})();
